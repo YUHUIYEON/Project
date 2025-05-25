@@ -5,5 +5,45 @@ a{
     text-decoration: none;
 }
 #wrapper{
-    background: #999;
+    background: url(../lottecinema/image/Flip_1920774.png) no-repeat center center;
+    
+}
+#header{
+    position: relative;
+}
+#header>.logo{
+    background: url(../lottecinema/image/logo_wht.png) no-repeat center center;
+    text-indent: -9999em;
+    padding: 5px;
+}
+#header>.gnb>ul>li>a{
+    color: #fff;
+    font-size: 13px;
+}
+#header>.gnb>ul>li{    
+    float: left;
+    margin: 0 5px
+}
+#header>.gnb>.g_menu1{
+    float: left;
+}
+#header>.gnb>.g_menu2{
+    float: right;
+}
+#header>.gnb>.g_menu3{
+    position: absolute;
+    right: 0;
+    top: 80px;
+}
+
+#nav{
+    text-align: center;
+    
+}
+#nav>ul>li{
+    display: inline-block;
+    margin: 0 15px;
+}
+#nav>ul>li>a{
+    color: #fff;
 }
