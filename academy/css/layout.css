@@ -1,0 +1,139 @@
+/*header style*/
+#header {
+    width: 100%; 
+    height: 565px;
+    background: url(../image/header-mainImg.jpg) no-repeat center/cover;
+}
+#header .inner {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+/*content style*/
+#content{
+    margin-bottom: 100px;
+    width: 1280px;
+    margin: 0 auto;
+}
+h2{
+    text-align: center;
+    color: #2a2a2a;
+    margin: 100px 0 65px;
+}
+
+
+/*content1 style*/
+.content1Img{
+    display: inline-block;
+}
+.content1Img>li{
+    display: inline-block;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.content1Img img{display: block;}
+.leftListen,.rightReview{width: 160px; height: 303px;}
+.leftMake,.rightSee{width: 273px; height: 404px;}
+.centerWalk{width: 340px; height: 505px;}
+
+
+/*content 공통 style*/
+#content h3{
+    display: inline-block;
+    background: #7eb98c;
+    border-radius: 10px;
+    color: #fff;
+    padding: 9px 38px;
+    margin-bottom: 20px;
+}
+#content p{
+    white-space: pre-line;
+    line-height: 1.5;
+}
+.content2,
+.content3,
+.content4,
+.content5 {
+    overflow: hidden;
+}
+
+
+/*content2-걷다 style*/
+img.content2-walk{
+    width: 572px; 
+    height: 600px;
+    float: left;
+    margin-right: 30px;
+}
+.content2-text {
+    float: left; 
+}
+
+
+/*content3-만들다 style*/
+/* .content3 {
+    margin: -162px 160px 0 0;
+}
+.content3-text {
+    float: right;
+    margin: 320px 30px 0 0;
+    text-align: right;
+} */
+.content3 {
+    position: relative;
+    top: -162px;
+    right: 160px;
+    margin-bottom: -162px;
+}
+img.content3-make {
+    width: 285px;
+    height: 450px;
+    float: right;
+}
+.content3-text {
+    float: right;
+    position: relative;
+    top: 320px;
+    right: 0px;
+    text-align: right;
+    margin-right: 30px;
+}
+
+
+/*content4-보다 style*/
+.content4 {
+    margin: 100px 0;
+}
+img.content4-see {
+    float: right;
+    width: 810px;
+    height: 315px;
+}
+.content4-text {
+    float: right;
+    margin-right: 30px;
+    text-align: right;
+}
+
+
+
+/*content5-듣다 style*/
+img.content5-listen1{
+    width: 335px;
+    height: 338px;
+}
+img.content5-listen2{
+    width: 281px;
+    height: 276px;
+}
+.content5-img {
+    float: left;
+    vertical-align: center;
+}
+.content5-text {
+    float: left;
+    margin: 62px 0 0 30px; 
+}
+
